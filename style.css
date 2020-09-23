@@ -1,0 +1,165 @@
+body{
+    font-family: 'PT Sans', Arial;
+    color:  #6e6e6e;
+
+}
+.navbar {
+    padding-bottom:65px;
+}
+
+.logo_content {
+    float: left;
+    margin-top: 8px;
+    font-size: x-large;
+    padding-left: 420px;
+    color: #5976a2;
+}
+
+.contact {
+    float: right;
+    margin-top: 0px;
+    margin-right: 365px;
+}
+div#phoneNo {
+    text-align: center;
+    color: #a78819;
+    font-size: 1.9em;
+}
+
+.banner {
+    height: 300px;
+    background-color: #516b91;
+    text-align: -webkit-center;
+    
+}
+
+.banner>h1, .banner>p{
+    
+    color:white;
+    width:703px;
+}
+.banner>h1{
+    padding-top: 75px;
+}
+
+.container_content>h1,.container_form>h1,.lower_content_area>h1{
+    color: #a78819;
+}
+
+.container_content {
+    width: 450px;   
+}
+.container_form {
+    padding: 0px 0px 25px 25px;
+    width: 335px;
+    border: 1px solid #f0ecec;
+}
+form>input {
+
+    margin-bottom: 5px;
+}
+
+input[type="text"],input[type="tel"],textarea{
+
+    background-color: #eeeeee;
+    border: 0;
+}
+input[type="text"],input[type="tel"]{
+    height: 25px;
+    width: 306px;
+}
+input[type="submit"] {
+    font-size: larger;
+    color: white;
+    background-color: #5b85a4;
+    border: 4px solid #5b78a4;
+    height: 50px;
+    width: 306px;
+}
+
+.inner_container {
+    padding: 0px 0px 0px 34px;
+    background-color: #516b91;
+    width: 450px;
+    color: white;
+    height: 200px;
+}
+
+.inner_container>h2 {
+    padding-top: 30px;
+}
+
+
+.lower_content_area {
+    width: 450px;
+    margin: auto;
+    padding: 0px 0px 80px 0px;
+}
+
+footer {
+    text-align: center;
+    background-color: #516b91;
+    height: 70px;
+    color: white;
+    padding-top: 50px;
+    font-size: x-large;
+}
+
+.footerTwo {
+    text-align: center;
+}
+dif{
+    color:  #5976a2;
+    color:   #a78819;
+    color: #ab8e26;
+    color: #666666;
+    color:#516b91;
+    color:#5b78a4;
+    color:#5b85a4;
+    color:#e4e3df;
+    color: #f4f4f4;
+}
+
+.main-body{
+    width: 100%;
+    display: flex;
+    padding: 80px 0px 80px 0px;
+}
+
+.main-inner-body{
+    display: flex;
+    margin: auto;
+}
+
+.margin-right-20{
+    margin-right: 20px;
+}
+
+.input-email{
+    font-weight: 700;
+}
+.flex_box {
+    padding-top: 0px !important;
+}
+div#footertext {
+    margin-top: -31px;
+}
+
+ /*hover source : https://codepen.io/geoffgraham/pen/RYQybJ */
+ 
+a {
+    border-bottom: 1px solid #453886;
+    color: #453886;
+    padding-bottom: .25em;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+  }
